@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  aplicacao:
+  image: github-jenkins-spring
+  restart: always
+  ports:
+    - "8084:8084"
+  container_name: github-jenkins-spring
